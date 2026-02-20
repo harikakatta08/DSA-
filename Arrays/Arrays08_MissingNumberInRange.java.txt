@@ -1,0 +1,19 @@
+import java.util.*;
+class MissingNumber {
+    public static void main(String[] args) {
+        int arr[]={1,2,6,4,3};
+        int low=1,high=6;
+        int i;
+        Set<Integer> set=new HashSet<>();
+        for(int num:arr){
+            set.add(num);
+        }
+        ArrayList<Integer> list=new ArrayList<>();
+        for(i=low;i<=high;i++){
+            if(!set.contains(i)){
+                list.add(i);
+            }
+        }
+        System.out.println( list);
+    }
+}
