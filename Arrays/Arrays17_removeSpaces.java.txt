@@ -1,0 +1,8 @@
+import java.util.*;
+class  removeSpaces{
+    public static void main(String[] args) {
+       String s="Harikaa Sriii";
+      s=s.replace(" ", "");
+       System.out.println(s + " ");
+    }
+}
