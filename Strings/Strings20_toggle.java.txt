@@ -1,0 +1,17 @@
+import java.util.*;
+class toggleCase {
+    public static void main(String[] args) {
+        String s="maDaM";
+        String res="";
+       for(char ch:s.toCharArray()){
+           if(Character.isUpperCase(ch)){
+               res+=Character.toLowerCase(ch);
+           }
+           else{
+               res+=Character.toUpperCase(ch);
+           }
+       }
+       System.out.println(res);
+}
+    
+}
