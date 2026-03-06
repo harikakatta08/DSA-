@@ -1,0 +1,12 @@
+class countWordsInSentence {
+    public static void main(String[] args) {
+       String s="I Love Java";
+       int count=1;
+       for(char ch:s.toCharArray()){
+           if(ch==' '){
+               count++;
+           }
+       }
+       System.out.println(count);
+    }
+}
